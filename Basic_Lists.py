@@ -11,4 +11,8 @@ print('After .remove removal: ', short_names)
 print(short_names[0])
 print(short_names[1])
 print(short_names[2])
-short_names[2] = 'Junavae'
+short_names[2] = 'Junavae'  # Update list element
+print('After element update:')
+print(short_names[0])
+print(short_names[1])
+print(short_names[2])
